@@ -1,5 +1,6 @@
 import styled from 'styled-components/native';
 import { Platform } from 'react-native';
+
 export const Container = styled.View`
     flex:1;
     align-items:center;
@@ -21,7 +22,7 @@ export const ForgotPassword = styled.TouchableOpacity`
 export const ForgotPasswordText = styled.Text`
     color:#f4ede8;
     font-size: 16px;
-    font-family: 'RobotoSlab-Regular'
+    font-family: 'RobotoSlab-Regular';
 `;
 
 export const CreateAccountButton = styled.TouchableOpacity`
@@ -36,9 +37,9 @@ export const CreateAccountButton = styled.TouchableOpacity`
 
     justify-content: center;
     align-items:center;
-    flex-direction: row;    
-
+    flex-direction: row;
 `;
+
 export const CreateAccountButtonText = styled.Text`
     color:#ff9000;
     font-size: 16px;

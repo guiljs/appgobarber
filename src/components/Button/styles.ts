@@ -9,11 +9,11 @@ export const Container = styled(RectButton)`
     margin-top: 8px;
     justify-content: center;
     align-items: center;
-    
+    padding: 12px 24px;
 `;
 
 export const ButtonText = styled.Text`
     font-family:'RobotoSlab-Medium';
     color: #312e38;
-    font-size: 18px;    
+    font-size: 18px;
 `;
