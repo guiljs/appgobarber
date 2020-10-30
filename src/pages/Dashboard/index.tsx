@@ -39,9 +39,8 @@ const Dashboard: React.FC = () => {
   }, [navigate]);
 
   const navigateToProfile = useCallback(() => {
-    // navigate('Profile');
-    signOut();
-  }, [signOut, navigate]);
+     navigate('Profile');
+  }, [navigate]);
 
   return (
     <Container>
